@@ -1,0 +1,24 @@
+<div class="grid bm-8">
+  <div class="col-12 sm:col-4 md:col-3 xl:col-6" *ngFor="let item of listMenu">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>{{ item.text }}</mat-card-title>
+      </mat-card-header>
+      <!-- <img class="" mat-card-image src="assets/img/logo-bdme1.png" /> -->
+      <mat-card-content>
+        <p>
+          Accede a este información desde nuestra página Haciendo click en
+          "Visitar"
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <a target="_blank" href="{{ item.url }}">
+          <button class="center" mat-raised-button color="primary">
+            Visitar!
+            <mat-icon>arrow_forward</mat-icon>
+          </button>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

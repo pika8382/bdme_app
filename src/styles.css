@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #673ab7;
+  text-align: center;
+}
+
+hr {
+  color: green;
+
+  border-bottom: solid 2px;
+}

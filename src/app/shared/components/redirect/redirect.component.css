@@ -1,0 +1,19 @@
+.example-card {
+  max-width: 400px;
+  margin-top: 10%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+mat-card {
+  height: 100%;
+}

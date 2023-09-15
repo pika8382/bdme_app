@@ -1,0 +1,100 @@
+.he_header {
+  background: #3366cc;
+  background: -moz-linear-gradient(left, #3366cc 50%, #e5eefb 50%);
+  background: -webkit-linear-gradient(left, #3366cc 50%, #e5eefb 50%);
+  background: linear-gradient(to right, #3366cc 50%, #e5eefb 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3366cc', endColorstr='#e5eefb',GradientType=1 );
+  font: Regular 12px/14px Montserrat;
+  letter-spacing: 0;
+  color: #0b457f;
+  opacity: 1;
+  font-size: 12px;
+}
+
+.he_header p {
+  margin: 0;
+}
+
+.he_logo {
+  background: #3366cc 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 0;
+}
+
+.he_logo img {
+  height: 16px;
+  margin-top: 5px;
+}
+
+.he_menu {
+  background: #e5eefb 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 4px 0px 3px 10px;
+  max-height: 30px;
+}
+
+.he_menu .nav-link {
+  padding: 0px 12px;
+}
+
+.he_menu .nav-item a {
+  text-transform: uppercase;
+  color: #0b457f;
+}
+
+.he_menu .nav-item a:hover {
+  font-weight: bold;
+  color: white !important;
+}
+
+.fixed-top {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  z-index: 1030 !important;
+}
+
+.logos {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 78px;
+}
+
+.logo-chip {
+  float: left;
+}
+.logo {
+  float: left;
+}
+#logo_chip {
+  color: #000;
+  float: left;
+  margin-left: 1%;
+  width: 100%;
+  max-width: 260px;
+}
+#logo_cgn {
+  color: #000;
+  float: left;
+  margin-left: 2%;
+  width: 100%;
+  max-width: 260px;
+}
+#logo-minhacienda {
+  width: 100%;
+  max-width: 296px;
+  color: #000;
+  float: right;
+  margin-right: 2%;
+}
+#logo_chip a {
+  display: block;
+}
+#logo_chip img {
+  width: 150%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 250px;
+}

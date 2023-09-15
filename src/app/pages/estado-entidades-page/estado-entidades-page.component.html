@@ -1,0 +1,56 @@
+<h2>Consulta del Estado de Reporte de la Entidad Pública</h2>
+<hr />
+
+<p>
+  En este sitio las entidades públicas pueden conocer el estado de publicación
+  en la Web de las trasmisiones de la categoría BDME.
+</p>
+
+<p>Para ello digite:</p>
+<br />
+
+<div class="grid">
+  <div class="col"><mat-label>Código</mat-label></div>
+  <div class="col">
+    <mat-form-field>
+      <mat-label>Código</mat-label>
+      <input type="password" matInput placeholder="Contraseña" />
+    </mat-form-field>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col"><mat-label>Fecha inicial de consulta: </mat-label></div>
+  <div class="col">
+    <mat-form-field>
+      <input matInput [matDatepicker]="picker" placeholder="Elige una fecha" />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col"><mat-label>Informe a consultar:</mat-label></div>
+  <div class="col">
+    <mat-form-field>
+      <mat-label>Font size</mat-label>
+      <mat-select #fontSize value="16px" (selectionChange)="triggerResize()">
+        <mat-option value="10px">CGN2009_BDME_REPORTE_SEMESTRAL</mat-option>
+        <mat-option value="12px"
+          >CGN2009_BDME_INCUMPLIMIENTO_ACUERDO_PAGO_SEMESTRAL</mat-option
+        >
+        <mat-option value="14px">CGN2009_BDME_RETIROS</mat-option>
+        <mat-option value="16px"
+          >CGN2009_BDME_CANCELACION_ACUERDOS_DE_PAGO</mat-option
+        >
+        <mat-option value="18px">CGN2011_BDME_ACTUALIZACION</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
+
+<button class="center" mat-raised-button color="primary">
+  Enviar!
+  <mat-icon>arrow_forward</mat-icon>
+</button>
